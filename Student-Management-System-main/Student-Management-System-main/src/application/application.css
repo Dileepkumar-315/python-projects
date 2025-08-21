@@ -1,0 +1,14 @@
+.button {
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0.3, 1, 2);
+    -fx-transition: all 0.3s ease;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #6a11cb, #2575fc); /* Purple to blue */
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
